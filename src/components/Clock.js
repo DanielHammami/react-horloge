@@ -1,5 +1,6 @@
 import React from 'react'
 import Panel from './Panel'
+import Display from './Display';
 
 export default class Clock extends React.Component {
 
@@ -36,6 +37,7 @@ export default class Clock extends React.Component {
         return (
             <div>
                 <Panel toogleDate={this.toggleDate} dateOn={this.state.isDateVisible}/>
+                <Display date={this.state.date} isDateVisible={this.state.isDateVisible}/>
             </div>
         )
     }

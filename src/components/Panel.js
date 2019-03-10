@@ -8,7 +8,7 @@ const Panel = (props) => {
                 <div className="col-md-4 mx-auto">
                     <div className="panel">                        
                         <label id="date-switch" className="switch">
-                            <input type="checkbox" checked={props.dateOn} onChange={props.toggleDate}/>
+                            <input type="checkbox" checked={props.dateOn} onChange={props.toogleDate}/>
                             <span className="slider round"></span>
                         </label>
                         <label className="panel-switch-text" htmlFor="date-switch">

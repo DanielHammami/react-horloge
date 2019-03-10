@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import DateTime from '../lib/DateTime'
 
-const Display = () => {
+const Display = (props) => {
     return (
         <div className="container-fluid">
             <div className="d-flex flex-row">
